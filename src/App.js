@@ -20,7 +20,7 @@ export default () => (
             component={withTracker(props => {
               return (
                 <route.layout {...props}>
-                  <route.component {...props} />
+                  {<route.component {...props} />}
                 </route.layout>
               );
             })}

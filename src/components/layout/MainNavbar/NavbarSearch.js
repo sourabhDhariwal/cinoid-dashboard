@@ -10,15 +10,16 @@ import {
 export default () => (
   <Form className="main-navbar__search w-100 d-none d-md-flex d-lg-flex">
     <InputGroup seamless className="ml-3">
-      <InputGroupAddon type="prepend">
+      <div ><h4 className="haderH4">Cinoid Dashboard</h4></div>
+      {/* <InputGroupAddon type="prepend">
         <InputGroupText>
           <i className="material-icons">search</i>
-        </InputGroupText>
-      </InputGroupAddon>
-      <FormInput
+        </InputGroupText> */}
+      {/* </InputGroupAddon> */}
+      {/* <FormInput
         className="navbar-search"
         placeholder="Search for something..."
-      />
+      /> */}
     </InputGroup>
   </Form>
 );

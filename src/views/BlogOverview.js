@@ -14,7 +14,7 @@ const BlogOverview = ({ smallStats }) => (
   <Container fluid className="main-content-container px-4">
     {/* Page Header */}
     <Row noGutters className="page-header py-4">
-      <PageTitle title="Blog Overview" subtitle="Dashboard" className="text-sm-left mb-3" />
+      <PageTitle title="Dashboard Overview" subtitle="Dashboard" className="text-sm-left mb-3" />
     </Row>
 
     {/* Small Stats Blocks */}
@@ -38,29 +38,29 @@ const BlogOverview = ({ smallStats }) => (
 
     <Row>
       {/* Users Overview */}
-      <Col lg="8" md="12" sm="12" className="mb-4">
+      {/* <Col lg="8" md="12" sm="12" className="mb-4">
         <UsersOverview />
-      </Col>
+      </Col> */}
 
       {/* Users by Device */}
-      <Col lg="4" md="6" sm="12" className="mb-4">
+      {/* <Col lg="4" md="6" sm="12" className="mb-4">
         <UsersByDevice />
-      </Col>
+      </Col> */}
 
       {/* New Draft */}
-      <Col lg="4" md="6" sm="12" className="mb-4">
+      {/* <Col lg="4" md="6" sm="12" className="mb-4">
         <NewDraft />
-      </Col>
+      </Col> */}
 
       {/* Discussions */}
-      <Col lg="5" md="12" sm="12" className="mb-4">
+      {/* <Col lg="5" md="12" sm="12" className="mb-4">
         <Discussions />
-      </Col>
+      </Col> */}
 
       {/* Top Referrals */}
-      <Col lg="3" md="12" sm="12" className="mb-4">
+      {/* <Col lg="3" md="12" sm="12" className="mb-4">
         <TopReferrals />
-      </Col>
+      </Col> */}
     </Row>
   </Container>
 );

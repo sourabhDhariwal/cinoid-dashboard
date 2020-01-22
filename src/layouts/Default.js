@@ -6,10 +6,10 @@ import MainNavbar from "../components/layout/MainNavbar/MainNavbar";
 import MainSidebar from "../components/layout/MainSidebar/MainSidebar";
 import MainFooter from "../components/layout/MainFooter";
 
-const DefaultLayout = ({ children, noNavbar, noFooter }) => (
+const DefaultLayout = ({ children, noNavbar, noFooter ,noMainSlideBar}) => (
   <Container fluid>
     <Row>
-      <MainSidebar />
+    {!noMainSlideBar && <MainSidebar />}   
       <Col
         className="main-content p-0"
         lg={{ size: 10, offset: 2 }}
@@ -33,12 +33,15 @@ DefaultLayout.propTypes = {
   /**
    * Whether to display the footer, or not.
    */
-  noFooter: PropTypes.bool
+  noFooter: PropTypes.bool,
+
+  noMainSlideBar: PropTypes.bool
 };
 
 DefaultLayout.defaultProps = {
   noNavbar: false,
-  noFooter: false
+  noFooter: false,
+  noMainSlideBar:false
 };
 
 export default DefaultLayout;

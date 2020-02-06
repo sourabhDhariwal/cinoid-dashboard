@@ -1,0 +1,109 @@
+.login-form {
+    background: transparent;
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    background-image: url("./raffles_singapore.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    left: 0;
+}
+.login_bg_image{
+    background-image: url("./popover_base.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-width: 882px;
+    border-radius: 8px;
+}
+.login_logo img {
+    max-width: 200px;
+    max-height: 200px;
+    margin-left: -50px;
+}
+.form_wrapper {
+    padding: 68px 40px 74px 50px;
+}
+.check_icon {
+    background: #ebebeb;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    margin: 0 auto 11px auto;
+}
+.check_icon img {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    clear: both;
+    padding: 17px 0;
+}
+.login_heading h1 {
+    font-size: 20px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2f4651;
+    text-align: center;
+    margin-bottom: 77px;
+    font-family: "robotomedium";
+}
+.form_wrapper input.form-control,
+.form_wrapper input.form-control:focus,
+.form_wrapper input.form-control:hover {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid rgba(151, 151, 151, 0.36);
+    border-radius: 0;
+    padding-left: 32px;
+    outline: none;
+    box-shadow: none;
+}
+.form_wrapper .input-group-addon {
+    position: absolute;
+    left: 0;
+    z-index: 9;
+    top: 4px;
+}
+.form_wrapper .input-group-addon img {
+    max-height: 20px;
+}
+.form_wrapper .form-group {
+    margin-bottom: 32px;
+}
+.form_wrapper .form-group button.btn-primary {
+    background: #1da4e6;
+    max-width: 120px;
+    border: none;
+    margin: 0 auto;
+    height: 36px;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    line-height: 23px;
+    padding: 6px 0;
+}
+
+
+.form_wrapper ::placeholder { 
+    color: #bcbcbc;
+    opacity: 1;
+    font-size: 18px;
+}
+.form_wrapper :-ms-input-placeholder { 
+    color: #bcbcbc;
+    font-size: 18px;
+}
+.form_wrapper ::-ms-input-placeholder {
+    color: #bcbcbc;
+    font-size: 18px;
+}

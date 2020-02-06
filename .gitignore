@@ -7,7 +7,8 @@ package-lock.json
 /node_modules
 /.pnp
 .pnp.js
-
+OneNote Table Of Contents.onetoc2
+public/OneNote Table Of Contents.onetoc2
 # testing
 /coverage
 

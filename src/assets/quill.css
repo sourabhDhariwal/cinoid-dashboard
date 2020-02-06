@@ -7,3 +7,24 @@
   text-align: center;
   margin-top: 14px;
 }
+
+.dataTables_paginate{
+  padding-left:45%
+}
+
+.dataTables_filter{
+  padding-left:45%
+}
+.dataTables_filter input[type="search"] {
+  width: 181%;
+}
+.dataTables_info,.dataTables_length   {
+  padding-left:5%
+}
+h4.haderH4{
+  padding-left: 355px !important;
+}
+
+.uploadBtn{
+  display: none;
+}

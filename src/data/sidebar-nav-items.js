@@ -11,6 +11,7 @@ export default function() {
       htmlBefore: '<i class="material-icons">note_add</i>',
       to: "/reports-staore",
     },
+    
     // {
     //   title: "Blog Posts",
     //   htmlBefore: '<i class="material-icons">vertical_split</i>',
